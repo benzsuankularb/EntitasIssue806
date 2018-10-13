@@ -16,17 +16,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Sources\Generated\Game\GameComponentsLookup.cs" />
-    <Compile Include="Assets\Sources\Generated\Input\InputComponentsLookup.cs" />
-    <Compile Include="Assets\Sources\Generated\Game\GameAttribute.cs" />
-    <Compile Include="Assets\Sources\Generated\Input\InputAttribute.cs" />
-    <Compile Include="Assets\Sources\Generated\Game\GameContext.cs" />
-    <Compile Include="Assets\Sources\Generated\Input\InputContext.cs" />
-    <Compile Include="Assets\Sources\Generated\Game\GameMatcher.cs" />
-    <Compile Include="Assets\Sources\Generated\Input\InputMatcher.cs" />
-    <Compile Include="Assets\Sources\Generated\Contexts.cs" />
-    <Compile Include="Assets\Sources\Generated\Game\GameEntity.cs" />
-    <Compile Include="Assets\Sources\Generated\Input\InputEntity.cs" />
-    <Compile Include="Assets\Sources\Generated\Feature.cs" />
+    <Compile Include="Generated\Game\GameComponentsLookup.cs" />
+    <Compile Include="Generated\Input\InputComponentsLookup.cs" />
+    <Compile Include="Generated\Game\GameAttribute.cs" />
+    <Compile Include="Generated\Input\InputAttribute.cs" />
+    <Compile Include="Generated\Game\GameContext.cs" />
+    <Compile Include="Generated\Input\InputContext.cs" />
+    <Compile Include="Generated\Game\GameMatcher.cs" />
+    <Compile Include="Generated\Input\InputMatcher.cs" />
+    <Compile Include="Generated\Contexts.cs" />
+    <Compile Include="Generated\Game\GameEntity.cs" />
+    <Compile Include="Generated\Input\InputEntity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Assets\Sources\Generated\Contexts.cs" />
   </ItemGroup>
 </Project>
